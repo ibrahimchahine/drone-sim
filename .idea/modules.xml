@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DroneSimulator-master/DroneSimulator-master.iml" filepath="$PROJECT_DIR$/DroneSimulator-master/DroneSimulator-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/drone-sim.iml" filepath="$PROJECT_DIR$/.idea/drone-sim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DroneSimulator-master/mxgraphgit/javascript/javascript.iml" filepath="$PROJECT_DIR$/DroneSimulator-master/mxgraphgit/javascript/javascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DroneSimulator-master/mxgraphgit/java/mxgraphgit.iml" filepath="$PROJECT_DIR$/DroneSimulator-master/mxgraphgit/java/mxgraphgit.iml" />
+    </modules>
+  </component>
+</project>

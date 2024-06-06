@@ -340,7 +340,7 @@ public class AutoAlgo1 {
 						}
 					}
 					
-					spin_by = 120;
+					spin_by = 101;
 					if(SimulationWindow.return_home) {
 						spin_by *= -1;
 					}

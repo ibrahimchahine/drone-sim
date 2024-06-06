@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="github.vlsi.mxgraph.jgraphx" type="repository">
+    <properties maven-id="com.github.vlsi.mxgraph:jgraphx:4.2.2">
+      <exclude>
+        <dependency maven-id="com.github.vlsi.mxgraph:jgraphx" />
+      </exclude>
+    </properties>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
