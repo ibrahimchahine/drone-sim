@@ -275,7 +275,7 @@ public class SimulationWindow {
 				new Point(84,73),
 				new Point(92,100)};
 		 //ToDo: change the path to your own path
-		Map map = new Map("C:\\Users\\YEHONATAN\\Downloads\\DroneSimulator-master\\DroneSimulator-master\\Maps\\p1" + map_num + ".png",startPoints[map_num-1]);
+		Map map = new Map("C:\\Users\\YEHONATAN\\Documents\\GitHub\\drone-sim\\DroneSimulator-master\\Maps\\p1" + map_num + ".png",startPoints[map_num-1]);
 		
 		algo1 = new AutoAlgo1(map);
 		

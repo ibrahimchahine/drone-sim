@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DroneSimulator-master/mxgraphgit/java/lib/mxgraph-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DroneSimulator-master/mxgraphgit/java/lib/mxgraph-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DroneSimulator-master/mxgraphgit/java/lib/mxgraph-swing.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
