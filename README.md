@@ -1,6 +1,10 @@
 ## Overview
 This assignment focuses on making a drone simulator algorithm.
-![example]([http://url/to/img.png](https://github.com/ibrahimchahine/drone-sim/blob/main/screen.png)
+
+
+![example]([https://github.com/ibrahimchahine/drone-sim/blob/main/screen.png])
+
+
 ## How to Run
 
  **Setup**:
