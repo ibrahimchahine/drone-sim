@@ -6,7 +6,7 @@ This assignment focuses on makin a drone simulator algorithm.
  **Setup**:
    - Clone the repository:
      ```bash
-     git clone <[repo_url](https://github.com/ibrahimchahine/drone-sim.git)>
+     git clone https://github.com/ibrahimchahine/drone-sim.git)
      cd drone-sim
      ```
 To change the data change data.txt
