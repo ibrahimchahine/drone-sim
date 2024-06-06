@@ -1,5 +1,5 @@
 ## Overview
-This assignment focuses on makin a drone simulator algorithm.
+This assignment focuses on making a drone simulator algorithm.
 
 ## How to Run
 
