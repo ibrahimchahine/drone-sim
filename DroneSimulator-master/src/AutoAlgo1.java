@@ -125,7 +125,7 @@ public class AutoAlgo1 {
 			map[xi][yi] = state; 
 		}
 	}
-	/*
+
 	
 	public void fineEdges(int x,int y) {
 		int radius = 6;
@@ -141,8 +141,8 @@ public class AutoAlgo1 {
 			}
 		}
 	}
-	*/
-	/*
+
+
 	public void blockLine(int x0,int y0,int x1,int y1) {
 		if(x0 > x1) {
 			int tempX = x0;
@@ -168,7 +168,7 @@ public class AutoAlgo1 {
 	     }
 	
 	}
-	*/
+
 	
 	public void paintBlindMap(Graphics g) {
 		Color c = g.getColor();
@@ -268,7 +268,6 @@ public class AutoAlgo1 {
 		
 		
 		Point dronePoint = drone.getOpticalSensorLocation();
-
 		
 		if(SimulationWindow.return_home) {
 			
@@ -276,7 +275,7 @@ public class AutoAlgo1 {
 				if(points.size() <= 1 && Tools.getDistanceBetweenPoints(getLastPoint(), dronePoint) <  max_distance_between_points/5) {
 					speedDown();
 				} else {
-					removeLastPoint();
+//					removeLastPoint();
 				}
 			}
 		} else {
@@ -341,7 +340,7 @@ public class AutoAlgo1 {
 						}
 					}
 					
-					spin_by = 90;
+					spin_by = 120;
 					if(SimulationWindow.return_home) {
 						spin_by *= -1;
 					}
@@ -454,7 +453,7 @@ public class AutoAlgo1 {
 		if(isFirst) {
 			degrees_left.add(0,degrees);
 			degrees_left_func.add(0,func);
-		
+
 			
 		} else {
 			degrees_left.add(degrees);
@@ -482,7 +481,7 @@ public class AutoAlgo1 {
 	public void spinBy(double degrees) {
 		lastGyroRotation = drone.getGyroRotation();
 		
-		degrees_left.add(degrees);
+		degrees_left.add(degrees/2);
 		degrees_left_func.add(null);
 		isRotating = 1;
 	}
