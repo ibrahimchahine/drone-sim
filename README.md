@@ -4,6 +4,9 @@ This assignment focuses on making a drone simulator algorithm.
 
 ![example](https://github.com/ibrahimchahine/drone-sim/blob/main/screen.png)
 
+When returning home: 
+
+![example](https://github.com/ibrahimchahine/drone-sim/blob/main/screen2.png)
 
 
 ## How to Run
